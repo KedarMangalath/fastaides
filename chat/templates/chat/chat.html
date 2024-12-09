@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fastaides</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+         /* Actuion button css */
+         .chat-actions {
+    display: flex;
+    gap: 8px;
+    padding: 8px 12px;
+    background: var(--background);
+    border-bottom: 1px solid var(--border);
+}
+
+.action-pill {
+    width: 100px; /* Approximately 0.5cm */
+    padding: 8px 16px;
+    border: none;
+    border-radius: var(--radius-lg);
+    background: var(--surface);
+    color: var(--text);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.action-pill:hover {
+    background: var(--primary-light);
+    color: var(--primary);
+    transform: translateY(-1px);
+}
+
+.action-pill:active {
+    transform: translateY(1px);
+}
+
+/* Dark mode specific styles */
+[data-theme="dark"] .action-pill {
+    background: var(--surface);
+    color: var(--text);
+}
+
+[data-theme="dark"] .action-pill:hover {
+    background: var(--primary-light);
+    color: var(--primary);
+}
+
+/* Animation for the pills */
+@keyframes pillEnter {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.action-pill {
+    animation: pillEnter 0.3s ease forwards;
+}
+
+.action-pill:nth-child(1) { animation-delay: 0.1s; }
+.action-pill:nth-child(2) { animation-delay: 0.2s; }
+.action-pill:nth-child(3) { animation-delay: 0.3s; }
+         /* Reduce margin between paragraphs */
+.message-content p {
+    margin: 5px 0; 
+}
+
+.message-content p:first-child {
+    margin-top: 0;  /* Remove top margin from first paragraph */
+}
+
+.message-content p:last-child {
+    margin-bottom: 0;  /* Remove bottom margin from last paragraph */
+}
+
+/* Add spacing control for lists */
+.message-content ul,
+.message-content ol {
+    margin: 5px 0;
+    padding-left: 20px;
+}
+
+.message-content li {
+    margin: 2px 0;
+}
+    .disclaimer {
+    font-size: 9px;
+    text-align: center;
+    padding: 8px;
+    color: var(--text-light);
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+}
+
+:root {
+    --primary: #c45f5f;
+    --primary-light: #ffe8e8;
+    --accent: #a13d3d;
+    --accent-light: rgba(193, 95, 95, 0.1);
+    --background: #ffffff;
+    --surface: #f8f9fa;
+    --text: #202124;
+    --text-light: #5f6368;
+    --border: #e0dada;
+    --shadow: 0 2px 12px rgba(193, 95, 95, 0.1);
+    --radius-sm: 12px;
+    --radius-lg: 24px;
+    --gradient: linear-gradient(135deg, #c45f5f, #e88a8a);
+    --gradient-accent: linear-gradient(135deg, #a13d3d, #c45f5f);
+}
+
+[data-theme="dark"] {
+    --background: #202124;
+    --surface: #2d2727;
+    --text: #ffffff;
+    --text-light: #c6bcbc;
+    --border: #483737;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    background: var(--background);
+    color: var(--text);
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-light);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+}
+
+.chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: var(--gradient);
+    box-shadow: 0 4px 16px rgba(193, 95, 95, 0.3);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+}
+
+.chat-button::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--gradient-accent);
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 25px;
+}
+
+.chat-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(193, 95, 95, 0.4);
+}
+
+.chat-button:hover::before {
+    opacity: 0.1;
+}
+
+.chat-button:active {
+    transform: translateY(1px);
+}
+
+.chat-button svg {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s;
+}
+
+.chat-button:hover svg {
+    transform: scale(1.1);
+}
+
+.chat-window {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 320px;
+    height: 500px;
+    background: var(--background);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 8px 32px rgba(193, 95, 95, 0.15);
+    display: none;
+    flex-direction: column;
+    z-index: 999;
+    overflow: hidden;
+    transform-origin: bottom right;
+}
+
+.chat-window.open {
+    display: flex;
+    animation: chatWindowOpen 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.chat-header {
+    padding: 12px 16px;
+    background: var(--gradient);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.chat-header h1 {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.chat-header .header-actions {
+    display: flex;
+    gap: 6px;
+}
+
+.header-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: var(--radius-sm);
+    transition: background-color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+.chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 12px;
+    scroll-behavior: smooth;
+    background: var(--background);
+    position: relative;
+    max-width: 100%;
+}
+
+.message {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+    position: relative;
+    max-width: 100%;
+}
+
+.message.user {
+    flex-direction: row-reverse;
+}
+
+.message-bubble {
+    max-width: 85%;
+    padding: 12px 16px;
+    border-radius: 16px;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.user .message-bubble {
+    background: var(--primary);
+    color: white;
+    border-bottom-right-radius: 4px;
+    margin-right: 6px;
+}
+
+.assistant .message-bubble {
+    background: var(--surface);
+    color: var(--text);
+    border-bottom-left-radius: 4px;
+    margin-left: 6px;
+}
+
+.message-time {
+    font-size: 0.65rem;
+    color: var(--text-light);
+    opacity: 0.7;
+    position: absolute;
+    bottom: -18px;
+    white-space: nowrap;
+}
+
+.user .message-time {
+    right: 6px;
+}
+
+.assistant .message-time {
+    left: 6px;
+}
+
+.message-content {
+    line-height: 1.6;
+    font-size: 0.9rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.message-content p {
+    margin: 8px 0;
+}
+
+.message-content p:first-child {
+    margin-top: 0;
+}
+
+.message-content p:last-child {
+    margin-bottom: 0;
+}
+
+.message-content ul,
+.message-content ol {
+    margin: 8px 0;
+    padding-left: 24px;
+}
+
+.message-content li {
+    margin: 8px 0;
+    padding-left: 8px;
+}
+
+.message-content ol {
+    counter-reset: item;
+}
+
+.message-content ol li {
+    display: list-item;
+    list-style-type: decimal;
+}
+
+.message-content a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.message-content code {
+    background: rgba(193, 95, 95, 0.1);
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+.message-image {
+    max-width: 200px;
+    border-radius: var(--radius-sm);
+    margin: 8px 0;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.message-image:hover {
+    transform: scale(1.05);
+}
+
+.chat-input {
+    padding: 12px;
+    background: var(--background);
+    border-top: 1px solid var(--border);
+    position: relative;
+}
+
+.input-container {
+    display: flex;
+    gap: 8px;
+    background: var(--surface);
+    padding: 8px 12px;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-container:focus-within {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 2px var(--primary-light);
+}
+
+.action-button {
+    background: none;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: var(--radius-sm);
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+}
+
+.action-button::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: currentColor;
+    opacity: 0;
+    border-radius: inherit;
+    transition: opacity 0.2s;
+}
+
+.action-button:hover::after {
+    opacity: 0.1;
+}
+
+.action-button:active {
+    transform: scale(0.95);
+}
+
+.action-button svg {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.2s;
+}
+
+.action-button:hover svg {
+    transform: scale(1.1);
+}
+
+.send-button {
+    background: var(--gradient);
+    color: white;
+}
+
+.send-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.message-input {
+    flex: 1;
+    border: none;
+    background: none;
+    padding: 8px;
+    font-size: 0.9rem;
+    color: var(--text);
+    outline: none;
+    resize: none;
+    min-height: 24px;
+    max-height: 120px;
+    line-height: 1.4;
+}
+
+.message-input::placeholder {
+    color: var(--text-light);
+}
+
+.typing-indicator {
+    display: flex;
+    gap: 4px;
+    padding: 12px;
+    background: var(--surface);
+    border-radius: var(--radius-lg);
+    margin: 8px 0;
+}
+
+.typing-dot {
+    width: 8px;
+    height: 8px;
+    background: var(--primary);
+    border-radius: 50%;
+    animation: typingBounce 1s infinite;
+}
+
+.typing-dot:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.typing-dot:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@media (max-width: 768px) {
+    .chat-window {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        animation: mobileSlideUp 0.3s;
+    }
+
+    .chat-header {
+        border-radius: 0;
+    }
+
+    .message-bubble {
+        max-width: 85%;
+    }
+
+    .input-container {
+        margin: 0;
+    }
+}
+/* File Upload Styles */
+.file-preview {
+    padding: 8px;
+    background: var(--surface);
+    border-radius: var(--radius-sm);
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.file-preview img {
+    max-height: 40px;
+    border-radius: var(--radius-sm);
+}
+
+.file-preview-remove {
+    color: var(--accent);
+    cursor: pointer;
+    padding: 4px;
+}
+
+/* Error Message */
+.error-message {
+    background: var(--accent-light);
+    color: var(--accent);
+    padding: 12px;
+    border-radius: var(--radius-sm);
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    animation: slideDown 0.3s;
+}
+
+/* Loading Spinners */
+.spinner {
+    width: 20px;
+    height: 20px;
+    border: 2px solid transparent;
+    border-top-color: currentColor;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+.loading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+    animation: fadeIn 0.3s;
+}
+
+/* Pull to Refresh */
+.refresh-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-light);
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+}
+
+.refreshing .refresh-indicator {
+    transform: translateY(0);
+}
+
+/* Animations */
+@keyframes messageSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+@keyframes typingBounce {
+    0%, 60%, 100% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-4px);
+    }
+}
+
+@keyframes ripple {
+    0% {
+        transform: scale(0);
+        opacity: 0.6;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+@keyframes mobileSlideUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes chatWindowOpen {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Touch Gestures */
+.swipeable {
+    touch-action: pan-y;
+    position: relative;
+}
+
+.swipe-actions {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    gap: 4px;
+    transform: translateX(100%);
+    transition: transform 0.3s;
+}
+
+.swipe-action {
+    padding: 8px;
+    background: var(--surface);
+    border-radius: var(--radius-sm);
+    color: var(--text);
+    cursor: pointer;
+}
+/* Add these to improve specific edge cases */
+
+/* For dark mode loading overlay */
+[data-theme="dark"] .loading-overlay {
+    background: rgba(32, 33, 36, 0.8);
+}
+
+/* For better focus states */
+.message-input:focus::placeholder {
+    opacity: 0.5;
+}
+
+/* For better link handling in messages */
+.message-content a:hover {
+    opacity: 0.8;
+}
+
+/* For better file preview handling */
+.file-preview-remove:hover {
+    background: var(--accent-light);
+    border-radius: var(--radius-sm);
+}
+
+/* For disabled states */
+.action-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* For better mobile touch handling */
+@media (hover: none) {
+    .action-button:hover::after {
+        opacity: 0;
+    }
+}
+    </style>
+</head>
+<body>
+    <!-- Chat Button -->
+    <button class="chat-button" id="chat-button" aria-label="Open chat">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+        </svg>
+    </button>
+
+    <!-- Chat Window -->
+    <div class="chat-window" id="chat-window">
+        <header class="chat-header">
+
+            <h1>Fastaides</h1>
+            <div class="header-actions">
+                <button class="header-button" id="theme-toggle" aria-label="Toggle theme">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                </button>
+                <button class="header-button" id="close-chat" aria-label="Close chat">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"/>
+                        <line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
+            </div>
+        </header>
+        <div class="chat-actions">
+            <button class="action-pill" id="help-button">Help</button>
+            <button class="action-pill" id="order-button">Order</button>
+            <button class="action-pill" id="modify-button">Modify Order</button>
+        </div>
+        <main class="chat-messages" id="chat-messages">
+            <div class="refresh-indicator">
+                <span>Release to refresh</span>
+            </div>
+            <!-- Messages will be inserted here -->
+        </main>
+
+        <footer class="chat-input">
+            <div class="input-container">
+                <button class="action-button" id="attachment-button" aria-label="Add attachment">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 19V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2z"/>
+                        <line x1="12" y1="8" x2="12" y2="16"/>
+                        <line x1="8" y1="12" x2="16" y2="12"/>
+                    </svg>
+                </button>
+                <input type="file" id="file-input" hidden accept="image/*">
+                <textarea 
+                    class="message-input" 
+                    id="message-input" 
+                    placeholder="Type your message..." 
+                    rows="1"
+                ></textarea>
+                <button class="action-button send-button" id="send-button" disabled aria-label="Send message">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="22" y1="2" x2="11" y2="13"/>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="file-preview" id="file-preview" style="display: none;">
+                <!-- File preview will be inserted here -->
+            </div>
+            <div class="error-message" id="error-message" style="display: none;">
+                <!-- Error messages will be displayed here -->
+            </div>
+        </footer>
+
+        <div class="disclaimer">
+        This is an AI assistant and may not always be accurate. For medical advice and emergencies, contact an actual healthcare professional        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <script>
+        // Configuration and Initialization
+        marked.setOptions({
+            breaks: true,
+            gfm: true,
+            sanitize: true
+        });
+        
+        function getCSRFToken() {
+            const cookies = document.cookie.split(';');
+            for (let cookie of cookies) {
+                const [name, value] = cookie.trim().split('=');
+                if (name === 'csrftoken') {
+                    return value;
+                }
+            }
+            return null;
+        }
+        
+        const chatButton = document.getElementById('chat-button');
+        const chatWindow = document.getElementById('chat-window');
+        const messagesContainer = document.getElementById('chat-messages');
+        const messageInput = document.getElementById('message-input');
+        const sendButton = document.getElementById('send-button');
+        const fileInput = document.getElementById('file-input');
+        const filePreview = document.getElementById('file-preview');
+        const errorMessage = document.getElementById('error-message');
+        const themeToggle = document.getElementById('theme-toggle');
+        const closeChat = document.getElementById('close-chat');
+        const attachmentButton = document.getElementById('attachment-button');
+        const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB limit
+        
+        let isTyping = false;
+        let touchStartY = 0;
+        let refreshDistance = 60;
+        let isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        
+        // Theme Handling
+        function toggleTheme() {
+            document.body.setAttribute('data-theme', isDarkMode ? 'light' : 'dark');
+            isDarkMode = !isDarkMode;
+            localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+        }
+        
+        // Message Handling
+        function addMessage(content, isUser = false, type = 'text') {
+    const messageDiv = document.createElement('div');
+    messageDiv.className = `message ${isUser ? 'user' : 'assistant'}`;
+
+    const bubbleDiv = document.createElement('div');
+    bubbleDiv.className = 'message-bubble';
+
+    const contentDiv = document.createElement('div');
+    contentDiv.className = 'message-content';
+
+    if (type === 'text') {
+        if (!isUser) {
+            // Clean up extra whitespace while preserving intentional line breaks
+            const cleanContent = content
+                .replace(/\n{3,}/g, '\n\n')  // Replace 3+ consecutive line breaks with 2
+                .replace(/^\s+|\s+$/g, '')   // Trim whitespace from start and end
+                .trim();
+            contentDiv.innerHTML = marked.parse(cleanContent);
+        } else {
+            contentDiv.textContent = content.trim();
+        }
+    } else if (type === 'image') {
+        const img = document.createElement('img');
+        img.src = content;
+        img.className = 'message-image';
+        img.onclick = () => {
+            window.open(content, '_blank');
+        };
+        contentDiv.appendChild(img);
+    }
+
+    const timeDiv = document.createElement('div');
+    timeDiv.className = 'message-time';
+    timeDiv.textContent = new Date().toLocaleTimeString([], {
+        hour: '2-digit',
+        minute: '2-digit'
+    });
+
+    bubbleDiv.appendChild(contentDiv);
+    messageDiv.appendChild(bubbleDiv);
+    messageDiv.appendChild(timeDiv);
+    
+    messagesContainer.appendChild(messageDiv);
+    messagesContainer.scrollTop = messagesContainer.scrollHeight;
+}
+        // Typing Indicator
+        function showTypingIndicator() {
+            const indicator = document.createElement('div');
+            indicator.className = 'typing-indicator';
+            indicator.innerHTML = `
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+            `;
+            messagesContainer.appendChild(indicator);
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+        
+        function removeTypingIndicator() {
+            const indicator = messagesContainer.querySelector('.typing-indicator');
+            if (indicator) {
+                indicator.remove();
+            }
+        }
+        
+        // Message Input Handling
+        messageInput.addEventListener('input', (e) => {
+            const lines = e.target.value.split('\n').length;
+            e.target.rows = Math.min(5, Math.max(1, lines));
+            sendButton.disabled = !e.target.value.trim();
+        });
+        
+        messageInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                if (!sendButton.disabled) {
+                    sendMessage();
+                }
+            }
+        });
+        
+        // File Handling
+        attachmentButton.addEventListener('click', () => {
+            fileInput.click();
+        });
+        
+        fileInput.addEventListener('change', async (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+        
+            if (!file.type.startsWith('image/')) {
+                showError('Please upload an image file');
+                fileInput.value = '';
+                return;
+            }
+        
+            if (file.size > MAX_FILE_SIZE) {
+                showError('File size should be less than 5MB');
+                fileInput.value = '';
+                return;
+            }
+        
+            const reader = new FileReader();
+            reader.onload = async (e) => {
+                try {
+                    addMessage(e.target.result, true, 'image');
+                    showTypingIndicator();
+                    
+                    const response = await fetch('/process_message/', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'X-CSRFToken': getCSRFToken(),
+                        },
+                        body: JSON.stringify({
+                            type: 'prescription',
+                            image: e.target.result
+                        })
+                    });
+        
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+        
+                    const data = await response.json();
+                    removeTypingIndicator();
+                    addMessage(data.message);
+        
+                    if (data.state) {
+                        updateChatState(data.state);
+                    }
+        
+                    if (data.prescription_data) {
+                        handlePrescriptionResponse(data.prescription_data);
+                    }
+        
+                } catch (error) {
+                    console.error('Error:', error);
+                    showError('Failed to process prescription. Please try again.');
+                    removeTypingIndicator();
+                }
+                
+                fileInput.value = '';
+            };
+        
+            reader.onerror = () => {
+                showError('Error reading file');
+                fileInput.value = '';
+            };
+            reader.readAsDataURL(file);
+        });
+        
+        // Message Sending
+        async function sendMessage() {
+            const message = messageInput.value.trim();
+            if (!message) return;
+        
+            addMessage(message, true);
+            messageInput.value = '';
+            messageInput.rows = 1;
+            sendButton.disabled = true;
+        
+            showTypingIndicator();
+        
+            try {
+                const response = await fetch('/process_message/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': getCSRFToken(),
+                    },
+                    body: JSON.stringify({
+                        message: message,
+                        type: 'text'
+                    })
+                });
+        
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+        
+                const data = await response.json();
+                removeTypingIndicator();
+                addMessage(data.message);
+                
+                if (data.state) {
+                    updateChatState(data.state);
+                }
+        
+            } catch (error) {
+                console.error('Error:', error);
+                showError('Failed to send message. Please try again.');
+                removeTypingIndicator();
+            }
+        }
+        
+        // State Management
+        function updateChatState(state) {
+            switch(state) {
+                case 'PRESCRIPTION_REVIEW':
+                    // Handle prescription review state
+                    enableOrderButtons();
+                    break;
+                case 'ORDER_PROCESSING':
+                    // Handle order processing state
+                    showOrderStatus();
+                    break;
+                case 'MANUAL_REVIEW':
+                    // Handle manual review state
+                    showManualReviewMessage();
+                    break;
+                default:
+                    // Reset to default chat state
+                    break;
+            }
+        }
+        
+        function handlePrescriptionResponse(data) {
+            if (data.valid) {
+                const medicines = data.medicines.join(', ');
+                addMessage(`Verified medicines: ${medicines}\nWould you like to place an order?`);
+            } 
+        }
+        
+        // UI Effects
+        function showError(message) {
+            errorMessage.textContent = message;
+            errorMessage.style.display = 'flex';
+            setTimeout(() => {
+                errorMessage.style.display = 'none';
+            }, 5000);
+        }
+        
+        function addRippleEffect(element) {
+            element.addEventListener('click', (e) => {
+                const ripple = document.createElement('div');
+                ripple.className = 'ripple';
+                const rect = element.getBoundingClientRect();
+                ripple.style.left = `${e.clientX - rect.left}px`;
+                ripple.style.top = `${e.clientY - rect.top}px`;
+                element.appendChild(ripple);
+                setTimeout(() => ripple.remove(), 1000);
+            });
+        }
+        
+        // Touch Gestures
+        messagesContainer.addEventListener('touchstart', (e) => {
+            touchStartY = e.touches[0].clientY;
+        });
+        
+        messagesContainer.addEventListener('touchmove', (e) => {
+            const touchY = e.touches[0].clientY;
+            const diff = touchY - touchStartY;
+        
+            if (diff > 0 && messagesContainer.scrollTop === 0) {
+                e.preventDefault();
+                if (diff > refreshDistance) {
+                    messagesContainer.classList.add('refreshing');
+                }
+            }
+        });
+        
+        messagesContainer.addEventListener('touchend', () => {
+            if (messagesContainer.classList.contains('refreshing')) {
+                loadOlderMessages();
+            }
+            messagesContainer.classList.remove('refreshing');
+        });
+        
+        // Initial Loading
+        async function loadInitialMessage() {
+            try {
+                const response = await fetch('/process_message/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': getCSRFToken(),
+                    },
+                    body: JSON.stringify({
+                        message: 'start',
+                        type: 'text'
+                    })
+                });
+        
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+        
+                const data = await response.json();
+                addMessage(data.message);
+            } catch (error) {
+                console.error('Error:', error);
+                addMessage("Hello! How can I assist you today? If you have any medical questions or need help with your prescription, feel free to ask!");
+            }
+        }
+        
+        // Initialize
+        window.onload = () => {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme) {
+                isDarkMode = savedTheme === 'dark';
+                document.body.setAttribute('data-theme', savedTheme);
+            }
+        
+            if (window.innerWidth <= 768) {
+                chatButton.click();
+            }
+            loadInitialMessage();
+        };
+        
+        // Event Listeners
+        chatButton.addEventListener('click', () => {
+            chatWindow.classList.add('open');
+            chatButton.style.display = 'none';
+        });
+        
+        closeChat.addEventListener('click', () => {
+            chatWindow.classList.remove('open');
+            chatButton.style.display = 'flex';
+        });
+        
+        themeToggle.addEventListener('click', toggleTheme);
+        
+        // Add ripple effect to all buttons
+        document.querySelectorAll('button').forEach(button => {
+            addRippleEffect(button);
+        });
+        
+        // Helper Functions for State Management
+        function enableOrderButtons() {
+            // Add order-related UI elements if needed
+            console.log('Enabling order buttons');
+        }
+        
+        function showOrderStatus() {
+            // Show order status UI
+            console.log('Showing order status');
+        }
+        
+        function showManualReviewMessage() {
+            // Show manual review message
+            addMessage("Your prescription requires manual review. A team member will contact you shortly.");
+        }
+        
+        async function loadOlderMessages() {
+            // Implement loading older messages if needed
+            console.log('Loading older messages');
+        }
+        async function loadInitialMessage() {
+    try {
+        addMessage("Welcome to Fastaides! We're here to help you with your medication needs. Simply share your prescription and we'll take care of the rest. Your health, our priority");
+    } catch (error) {
+        console.error('Error:', error);
+        addMessage("Hello! Welcome to Fastaides.\n How can I assist you today? If you have any medical questions or need help with your prescription, feel free to ask!");
+    }
+}
+// Action Button Event Listeners// Action Button Event Listeners
+document.getElementById('help-button').addEventListener('click', () => {
+    messageInput.value = "Help";
+    sendMessage();
+});
+
+document.getElementById('order-button').addEventListener('click', () => {
+    messageInput.value = "I want to place an order";
+    sendMessage();
+});
+
+document.getElementById('modify-button').addEventListener('click', () => {
+    messageInput.value = "I want to modify my order";
+    sendMessage();
+});
+        </script>
+
+</body>
+</html>

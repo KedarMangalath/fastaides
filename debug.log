@@ -1,0 +1,1878 @@
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\apps.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Prescription analysis response: The prescription is handwritten. Here are the extracted medicine details:
+
+1. **Augmentin 625 mg**
+   - Dosage: 1-0-1
+   - Duration: 5 days
+   - Taken after meals.
+
+2. **Enzoflarn**
+   - Dosage: 1-0-1
+   - Duration: 5 days
+   - Taken after meals.
+
+3. **Pan-D 40 mg**
+   - Dosage: 1-0-0
+   - Duration: 5 days
+   - Taken before meals.
+
+4. **Hexigel gum paint**
+   - Application: 1-0-1
+   - Duration: 1 week
+   - To be massaged.
+
+If you need further information or assistance, let me know!
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Prescription analysis response: The prescription you provided is digital/typed. Here are the details of the medications listed:
+
+1. **Medicine Name:** TAB. ABCIXIMAB
+   - **Dosage:** 1 Morning
+   - **Duration:** 8 Days (Total: 8 Tablets)
+
+2. **Medicine Name:** TAB. VOMILAST
+   - **Dosage:** 1 Morning, 1 Night (After Food)
+   - **Duration:** 8 Days (Total: 16 Tablets)
+   - **Ingredients:** Doxylamine 10 mg + Pyridoxine 10 mg + Folic Acid 2.5 mg
+
+3. **Medicine Name:** CAP. ZOCLAR 500
+   - **Dosage:** 1 Morning
+   - **Duration:** 3 Days (Total: 3 Capsules)
+
+4. **Medicine Name:** TAB. GESTAKIND 10/SR
+   - **Dosage:** 1 Night
+   - **Duration:** 4 Days (Total: 4 Tablets)
+
+5. **Medicine Name:** ISOXSUPRINE 10 mg
+   - (Dosage and duration not specified)
+
+### Advice Given:
+- Take Bed Rest
+- Do Not Eat Outside Food
+- Eat Easy to Digest Food Like Boiled Rice with Daal
+
+### Follow Up:
+- Date: 04-09-2023
+
+If you need any further information or assistance, feel free to ask!
+Internal Server Error: /process_message/
+Internal Server Error: /process_message/
+Internal Server Error: /process_message/
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+Prescription analysis error: Error code: 404 - {'error': {'message': 'The model `gpt-4-vision-preview` has been deprecated, learn more here: https://platform.openai.com/docs/deprecations', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+Error handling text message: 'CompiledStateGraph' object has no attribute 'predict'
+Internal Server Error: /process_message/
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Prescription analysis: The prescription image is digital/typed. Here are the extracted medicine details:
+
+1. **TAB. ABCIXIMAB**  
+   - Dosage: 1 Morning  
+   - Duration: 8 Days (Total: 8 Tabs)  
+
+2. **TAB. VOMILAST**  
+   - Dosage: 1 Morning, 1 Night (After Food)  
+   - Duration: 8 Days (Total: 16 Tabs)  
+
+3. **CAP. ZOCLAR 500**  
+   - Dosage: 1 Morning  
+   - Duration: 3 Days (Total: 3 Caps)  
+
+4. **TAB. GESTAKIND 10/SR**  
+   - Dosage: 1 Night  
+   - Duration: 4 Days (Total: 4 Tabs)  
+
+5. **ISOSXUPRINE 10 MG**  
+   - Dosage: Not specified in the table.
+
+The chief complaint indicates the patient has malaria.
+Error in chatbot response: 'HumanMessage' object is not subscriptable
+Error processing message: 'AIMessage' object is not subscriptable
+Internal Server Error: /process_message/
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Error in chatbot response: too many values to unpack (expected 2)
+Error handling prescription: 'AIMessage' object is not subscriptable
+Internal Server Error: /process_message/
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Error in chatbot response: too many values to unpack (expected 2)
+Error handling prescription: 'AIMessage' object is not subscriptable
+Internal Server Error: /process_message/
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+ChatNode error: 'AIMessage' object is not subscriptable
+Message processing error: 'AIMessage' object is not subscriptable
+Internal Server Error: /process_message/
+ChatNode error: 'AIMessage' object is not subscriptable
+Message processing error: 'AIMessage' object is not subscriptable
+Internal Server Error: /process_message/
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+Chat node error: too many values to unpack (expected 2)
+Message processing error: 'AIMessage' object is not subscriptable
+Internal Server Error: /process_message/
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.477748 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.886554 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Internal Server Error: /process_message/
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.455192 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.946221 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Internal Server Error: /process_message/
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+Internal Server Error: /process_message/
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+Internal Server Error: /process_message/
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+Internal Server Error: /process_message/
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+Internal Server Error: /process_message/
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+Empty response from agent
+Error handling text message
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 297, in handle_text_message
+    raise ValueError("No response generated")
+ValueError: No response generated
+Internal Server Error: /process_message/
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+Empty or invalid response on attempt 1
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+Empty or invalid response on attempt 2
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+Empty or invalid response on attempt 3
+Error on attempt 3: No valid response generated after multiple attempts
+Error handling text message
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 320, in handle_text_message
+    raise ValueError("No valid response generated after multiple attempts")
+ValueError: No valid response generated after multiple attempts
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+Empty or invalid response on attempt 1
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 16.000000 seconds
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 16.000000 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+Text message handling failed
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 380, in handle_text_message
+    raise Exception("Failed to get valid response after retries")
+Exception: Failed to get valid response after retries
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 20.000000 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 25.000000 seconds
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 23.000000 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+Failed to log message: table chat_message has no column named metadata
+Error handling text message
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: chat_message.metadata
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 440, in handle_text_message
+    messages = list(chat_session.messages.order_by('timestamp'))
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: chat_message.metadata
+Failed to log message: table chat_message has no column named metadata
+Internal Server Error: /process_message/
+Failed to log message: table chat_message has no column named metadata
+Error handling text message
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: chat_message.metadata
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 440, in handle_text_message
+    messages = list(chat_session.messages.order_by('timestamp'))
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: chat_message.metadata
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Failed to log message: table chat_message has no column named metadata
+Internal Server Error: /process_message/
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Error handling text message
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: chat_chatsession.state
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 469, in handle_text_message
+    chat_session.save()
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\base.py", line 1129, in _save_table
+    updated = self._do_update(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\base.py", line 1194, in _do_update
+    return filtered._update(values) > 0
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\query.py", line 1278, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 2003, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: chat_chatsession.state
+Internal Server Error: /process_message/
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Error handling text message
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: chat_chatsession.state
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 469, in handle_text_message
+    chat_session.save()
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\base.py", line 1129, in _save_table
+    updated = self._do_update(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\base.py", line 1194, in _do_update
+    return filtered._update(values) > 0
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\query.py", line 1278, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 2003, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: chat_chatsession.state
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Internal Server Error: /process_message/
+Failed to initialize LLMs: 'Settings' object has no attribute 'OPENAI_API_KEY'
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Error in handle_prescription_upload
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 608, in handle_prescription_upload
+    log_message(
+TypeError: log_message() got an unexpected keyword argument 'type'
+Internal Server Error: /process_message/
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Error in prescription validation
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 218, in _run
+    days_supply = int(medicine.get('duration', '30').split()[0])
+IndexError: list index out of range
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Error handling text message
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 420, in handle_text_message
+    response = agent_executor.invoke({
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\chains\base.py", line 170, in invoke
+    raise e
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\chains\base.py", line 160, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1624, in _call
+    next_step_output = self._take_next_step(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1330, in _take_next_step
+    [
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1330, in <listcomp>
+    [
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1415, in _iter_next_step
+    yield self._perform_agent_action(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1437, in _perform_agent_action
+    observation = tool.run(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\tools\base.py", line 689, in run
+    raise error_to_raise
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\tools\base.py", line 657, in run
+    response = context.run(self._run, *tool_args, **tool_kwargs)
+TypeError: MedicineOrderTool._run() missing 1 required positional argument: 'order_details'
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Error handling text message
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 420, in handle_text_message
+    response = agent_executor.invoke({
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\chains\base.py", line 170, in invoke
+    raise e
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\chains\base.py", line 160, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1624, in _call
+    next_step_output = self._take_next_step(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1330, in _take_next_step
+    [
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1330, in <listcomp>
+    [
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1415, in _iter_next_step
+    yield self._perform_agent_action(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1437, in _perform_agent_action
+    observation = tool.run(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\tools\base.py", line 689, in run
+    raise error_to_raise
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\tools\base.py", line 657, in run
+    response = context.run(self._run, *tool_args, **tool_kwargs)
+TypeError: MedicineOrderTool._run() missing 1 required positional argument: 'order_details'
+Watching for file changes with StatReloader
+Error handling text message
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 443, in handle_text_message
+    response = agent_executor.invoke({
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\chains\base.py", line 170, in invoke
+    raise e
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\chains\base.py", line 160, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1624, in _call
+    next_step_output = self._take_next_step(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1330, in _take_next_step
+    [
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1330, in <listcomp>
+    [
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1358, in _iter_next_step
+    output = self._action_agent.plan(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 465, in plan
+    for chunk in self.runnable.stream(inputs, config={"callbacks": callbacks}):
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3407, in stream
+    yield from self.transform(iter([input]), config, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3394, in transform
+    yield from self._transform_stream_with_config(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 2197, in _transform_stream_with_config
+    chunk: Output = context.run(next, iterator)  # type: ignore
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3357, in _transform
+    yield from final_pipeline
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1413, in transform
+    for ichunk in input:
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 5561, in transform
+    yield from self.bound.transform(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1413, in transform
+    for ichunk in input:
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1431, in transform
+    yield from self.stream(final, config, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 998, in stream
+    yield self.invoke(input, config, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\prompts\base.py", line 208, in invoke
+    return self._call_with_config(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1927, in _call_with_config
+    context.run(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\config.py", line 396, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\prompts\base.py", line 182, in _format_prompt_with_error_handling
+    _inner_input = self._validate_input(inner_input)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\prompts\base.py", line 176, in _validate_input
+    raise KeyError(
+KeyError: 'Input to ChatPromptTemplate is missing variables {\'\\n    "session_id"\'}.  Expected: [\'\\n    "session_id"\', \'agent_scratchpad\', \'chat_history\', \'input\'] Received: [\'input\', \'chat_history\', \'context\', \'intermediate_steps\', \'agent_scratchpad\']\nNote: if you intended {\n    "session_id"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n    "session_id"}}\'.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT '
+Error handling text message
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 443, in handle_text_message
+    response = agent_executor.invoke({
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\chains\base.py", line 170, in invoke
+    raise e
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\chains\base.py", line 160, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1624, in _call
+    next_step_output = self._take_next_step(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1330, in _take_next_step
+    [
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1330, in <listcomp>
+    [
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1358, in _iter_next_step
+    output = self._action_agent.plan(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 465, in plan
+    for chunk in self.runnable.stream(inputs, config={"callbacks": callbacks}):
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3407, in stream
+    yield from self.transform(iter([input]), config, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3394, in transform
+    yield from self._transform_stream_with_config(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 2197, in _transform_stream_with_config
+    chunk: Output = context.run(next, iterator)  # type: ignore
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3357, in _transform
+    yield from final_pipeline
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1413, in transform
+    for ichunk in input:
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 5561, in transform
+    yield from self.bound.transform(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1413, in transform
+    for ichunk in input:
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1431, in transform
+    yield from self.stream(final, config, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 998, in stream
+    yield self.invoke(input, config, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\prompts\base.py", line 208, in invoke
+    return self._call_with_config(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1927, in _call_with_config
+    context.run(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\config.py", line 396, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\prompts\base.py", line 182, in _format_prompt_with_error_handling
+    _inner_input = self._validate_input(inner_input)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\prompts\base.py", line 176, in _validate_input
+    raise KeyError(
+KeyError: 'Input to ChatPromptTemplate is missing variables {\'\\n    "session_id"\'}.  Expected: [\'\\n    "session_id"\', \'agent_scratchpad\', \'chat_history\', \'input\'] Received: [\'input\', \'chat_history\', \'context\', \'intermediate_steps\', \'agent_scratchpad\']\nNote: if you intended {\n    "session_id"} to be part of the string and not a variable, please escape it with double curly braces like: \'{{\n    "session_id"}}\'.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT '
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Not Found: /favicon.ico
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Failed to update session context: Object of type UUID is not JSON serializable
+Failed to log message: An error occurred in the current transaction. You can't execute queries until the end of the 'atomic' block.
+Error processing prescription
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 692, in handle_prescription_upload
+    chat_session.save()
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\base.py", line 1129, in _save_table
+    updated = self._do_update(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\base.py", line 1194, in _do_update
+    return filtered._update(values) > 0
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\query.py", line 1278, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 2003, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1561, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1966, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\fields\json.py", line 113, in get_db_prep_save
+    return self.get_db_prep_value(value, connection)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\models\fields\json.py", line 108, in get_db_prep_value
+    return connection.ops.adapt_json_value(value, self.encoder)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\db\backends\base\operations.py", line 598, in adapt_json_value
+    return json.dumps(value, cls=encoder)
+  File "C:\Users\manga\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\manga\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\manga\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\manga\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UUID is not JSON serializable
+Internal Server Error: /process_message/
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Starting prescription upload for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+Starting prescription upload for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Starting prescription upload for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Starting prescription upload for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Starting prescription upload for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Starting prescription upload for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Starting prescription upload for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Starting prescription upload for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+Starting prescription upload for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Starting prescription upload for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+Starting prescription upload for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+Watching for file changes with StatReloader
+Starting prescription upload for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Starting prescription upload for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Starting prescription upload for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+Bad Request: /process_message/
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Starting prescription upload for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Starting prescription upload for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Error processing message
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 598, in process_message
+    return JsonResponse(response)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\http\response.py", line 726, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /process_message/
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Error processing message
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 598, in process_message
+    return JsonResponse(response)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\django\http\response.py", line 726, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+Internal Server Error: /process_message/
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+Error in handle_text_message
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 661, in handle_text_message
+    response = agent_executor.invoke({
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\chains\base.py", line 170, in invoke
+    raise e
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\chains\base.py", line 160, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1624, in _call
+    next_step_output = self._take_next_step(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1330, in _take_next_step
+    [
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1330, in <listcomp>
+    [
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1358, in _iter_next_step
+    output = self._action_agent.plan(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 465, in plan
+    for chunk in self.runnable.stream(inputs, config={"callbacks": callbacks}):
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3407, in stream
+    yield from self.transform(iter([input]), config, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3394, in transform
+    yield from self._transform_stream_with_config(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 2197, in _transform_stream_with_config
+    chunk: Output = context.run(next, iterator)  # type: ignore
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3357, in _transform
+    yield from final_pipeline
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1413, in transform
+    for ichunk in input:
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 5561, in transform
+    yield from self.bound.transform(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1413, in transform
+    for ichunk in input:
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1431, in transform
+    yield from self.stream(final, config, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 998, in stream
+    yield self.invoke(input, config, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\prompts\base.py", line 208, in invoke
+    return self._call_with_config(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1927, in _call_with_config
+    context.run(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\config.py", line 396, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\prompts\base.py", line 182, in _format_prompt_with_error_handling
+    _inner_input = self._validate_input(inner_input)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\prompts\base.py", line 176, in _validate_input
+    raise KeyError(
+KeyError: "Input to ChatPromptTemplate is missing variables {'context'}.  Expected: ['agent_scratchpad', 'chat_history', 'context', 'input'] Received: ['input', 'chat_history', 'intermediate_steps', 'agent_scratchpad']\nNote: if you intended {context} to be part of the string and not a variable, please escape it with double curly braces like: '{{context}}'.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT "
+Error handling text message
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 600, in process_message
+    result = handle_text_message(data, chat_session)
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 661, in handle_text_message
+    response = agent_executor.invoke({
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\chains\base.py", line 170, in invoke
+    raise e
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\chains\base.py", line 160, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1624, in _call
+    next_step_output = self._take_next_step(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1330, in _take_next_step
+    [
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1330, in <listcomp>
+    [
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1358, in _iter_next_step
+    output = self._action_agent.plan(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 465, in plan
+    for chunk in self.runnable.stream(inputs, config={"callbacks": callbacks}):
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3407, in stream
+    yield from self.transform(iter([input]), config, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3394, in transform
+    yield from self._transform_stream_with_config(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 2197, in _transform_stream_with_config
+    chunk: Output = context.run(next, iterator)  # type: ignore
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3357, in _transform
+    yield from final_pipeline
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1413, in transform
+    for ichunk in input:
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 5561, in transform
+    yield from self.bound.transform(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1413, in transform
+    for ichunk in input:
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1431, in transform
+    yield from self.stream(final, config, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 998, in stream
+    yield self.invoke(input, config, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\prompts\base.py", line 208, in invoke
+    return self._call_with_config(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1927, in _call_with_config
+    context.run(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\config.py", line 396, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\prompts\base.py", line 182, in _format_prompt_with_error_handling
+    _inner_input = self._validate_input(inner_input)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\prompts\base.py", line 176, in _validate_input
+    raise KeyError(
+KeyError: "Input to ChatPromptTemplate is missing variables {'context'}.  Expected: ['agent_scratchpad', 'chat_history', 'context', 'input'] Received: ['input', 'chat_history', 'intermediate_steps', 'agent_scratchpad']\nNote: if you intended {context} to be part of the string and not a variable, please escape it with double curly braces like: '{{context}}'.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT "
+Internal Server Error: /process_message/
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+Starting prescription upload for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Starting prescription upload for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session 3c6dbb76-dcd6-475b-8883-7a10b1d3451f
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Starting prescription upload for session a6c18fed-7b64-49da-9590-3776b8e0da9d
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session a6c18fed-7b64-49da-9590-3776b8e0da9d
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Starting prescription upload for session a6c18fed-7b64-49da-9590-3776b8e0da9d
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session a6c18fed-7b64-49da-9590-3776b8e0da9d
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Bad Request: /process_message/
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /process_message/
+Bad Request: /process_message/
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Bad Request: /process_message/
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Starting prescription upload for session a6c18fed-7b64-49da-9590-3776b8e0da9d
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session a6c18fed-7b64-49da-9590-3776b8e0da9d
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Bad Request: /process_message/
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.478872 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.967156 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Error on attempt 1: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.394030 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.972274 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Error on attempt 2: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.375292 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.788419 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Error on attempt 3: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Error handling text message
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 648, in handle_text_message
+    raise last_error
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 609, in handle_text_message
+    response = agent_executor.invoke({
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\chains\base.py", line 170, in invoke
+    raise e
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\chains\base.py", line 160, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1624, in _call
+    next_step_output = self._take_next_step(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1330, in _take_next_step
+    [
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1330, in <listcomp>
+    [
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1358, in _iter_next_step
+    output = self._action_agent.plan(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 465, in plan
+    for chunk in self.runnable.stream(inputs, config={"callbacks": callbacks}):
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3407, in stream
+    yield from self.transform(iter([input]), config, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3394, in transform
+    yield from self._transform_stream_with_config(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 2197, in _transform_stream_with_config
+    chunk: Output = context.run(next, iterator)  # type: ignore
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3357, in _transform
+    yield from final_pipeline
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1413, in transform
+    for ichunk in input:
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 5561, in transform
+    yield from self.bound.transform(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1431, in transform
+    yield from self.stream(final, config, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\language_models\chat_models.py", line 420, in stream
+    raise e
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\language_models\chat_models.py", line 400, in stream
+    for chunk in self._stream(messages, stop=stop, **kwargs):
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_openai\chat_models\base.py", line 640, in _stream
+    response = self.client.create(**payload)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_utils\_utils.py", line 275, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\resources\chat\completions.py", line 829, in create
+    return self._post(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1278, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 955, in request
+    return self._request(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1044, in _request
+    return self._retry_request(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1093, in _retry_request
+    return self._request(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1044, in _request
+    return self._retry_request(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1093, in _retry_request
+    return self._request(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1059, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.394738 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.970876 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Error on attempt 1: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.415700 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.856644 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Error on attempt 2: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.447127 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.869726 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Error on attempt 3: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Error handling text message
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 648, in handle_text_message
+    raise last_error
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 609, in handle_text_message
+    response = agent_executor.invoke({
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\chains\base.py", line 170, in invoke
+    raise e
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\chains\base.py", line 160, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1624, in _call
+    next_step_output = self._take_next_step(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1330, in _take_next_step
+    [
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1330, in <listcomp>
+    [
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1358, in _iter_next_step
+    output = self._action_agent.plan(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 465, in plan
+    for chunk in self.runnable.stream(inputs, config={"callbacks": callbacks}):
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3407, in stream
+    yield from self.transform(iter([input]), config, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3394, in transform
+    yield from self._transform_stream_with_config(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 2197, in _transform_stream_with_config
+    chunk: Output = context.run(next, iterator)  # type: ignore
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3357, in _transform
+    yield from final_pipeline
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1413, in transform
+    for ichunk in input:
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 5561, in transform
+    yield from self.bound.transform(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1431, in transform
+    yield from self.stream(final, config, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\language_models\chat_models.py", line 420, in stream
+    raise e
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\language_models\chat_models.py", line 400, in stream
+    for chunk in self._stream(messages, stop=stop, **kwargs):
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_openai\chat_models\base.py", line 640, in _stream
+    response = self.client.create(**payload)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_utils\_utils.py", line 275, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\resources\chat\completions.py", line 829, in create
+    return self._post(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1278, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 955, in request
+    return self._request(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1044, in _request
+    return self._retry_request(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1093, in _retry_request
+    return self._request(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1044, in _request
+    return self._retry_request(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1093, in _retry_request
+    return self._request(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1059, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.422744 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.877854 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Error in medical info tool
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 214, in _run
+    response = llm.invoke([
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\language_models\chat_models.py", line 286, in invoke
+    self.generate_prompt(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\language_models\chat_models.py", line 786, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\language_models\chat_models.py", line 643, in generate
+    raise e
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\language_models\chat_models.py", line 633, in generate
+    self._generate_with_cache(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\language_models\chat_models.py", line 851, in _generate_with_cache
+    result = self._generate(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_openai\chat_models\base.py", line 689, in _generate
+    response = self.client.create(**payload)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_utils\_utils.py", line 275, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\resources\chat\completions.py", line 829, in create
+    return self._post(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1278, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 955, in request
+    return self._request(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1044, in _request
+    return self._retry_request(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1093, in _retry_request
+    return self._request(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1044, in _request
+    return self._retry_request(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1093, in _retry_request
+    return self._request(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1059, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.380364 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.970065 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Error on attempt 1: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.377935 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.806082 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Error on attempt 2: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.471950 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.831400 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Error on attempt 3: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Error handling text message
+Traceback (most recent call last):
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 648, in handle_text_message
+    raise last_error
+  File "C:\Users\manga\Desktop\medical_chatbot\chat\views.py", line 609, in handle_text_message
+    response = agent_executor.invoke({
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\chains\base.py", line 170, in invoke
+    raise e
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\chains\base.py", line 160, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1624, in _call
+    next_step_output = self._take_next_step(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1330, in _take_next_step
+    [
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1330, in <listcomp>
+    [
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 1358, in _iter_next_step
+    output = self._action_agent.plan(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain\agents\agent.py", line 465, in plan
+    for chunk in self.runnable.stream(inputs, config={"callbacks": callbacks}):
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3407, in stream
+    yield from self.transform(iter([input]), config, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3394, in transform
+    yield from self._transform_stream_with_config(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 2197, in _transform_stream_with_config
+    chunk: Output = context.run(next, iterator)  # type: ignore
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3357, in _transform
+    yield from final_pipeline
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1413, in transform
+    for ichunk in input:
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 5561, in transform
+    yield from self.bound.transform(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 1431, in transform
+    yield from self.stream(final, config, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\language_models\chat_models.py", line 420, in stream
+    raise e
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_core\language_models\chat_models.py", line 400, in stream
+    for chunk in self._stream(messages, stop=stop, **kwargs):
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\langchain_openai\chat_models\base.py", line 640, in _stream
+    response = self.client.create(**payload)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_utils\_utils.py", line 275, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\resources\chat\completions.py", line 829, in create
+    return self._post(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1278, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 955, in request
+    return self._request(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1044, in _request
+    return self._retry_request(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1093, in _retry_request
+    return self._request(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1044, in _request
+    return self._retry_request(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1093, in _retry_request
+    return self._request(
+  File "C:\Users\manga\Desktop\medical_chatbot\.venv\lib\site-packages\openai\_base_client.py", line 1059, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Starting prescription upload for session a6c18fed-7b64-49da-9590-3776b8e0da9d
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session a6c18fed-7b64-49da-9590-3776b8e0da9d
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Starting prescription upload for session a6c18fed-7b64-49da-9590-3776b8e0da9d
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Successfully processed prescription for session a6c18fed-7b64-49da-9590-3776b8e0da9d
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Bad Request: /process_message/
+Bad Request: /process_message/
+Bad Request: /process_message/
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\manga\Desktop\medical_chatbot\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
